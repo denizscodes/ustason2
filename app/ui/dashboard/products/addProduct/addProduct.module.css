@@ -1,0 +1,47 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.form .section {
+  display: grid;
+  gap: 10px;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 10px;
+  background-color: var(--bg);
+  color: var(--text);
+  border: 2px solid #0071e3;
+  border-radius: 5px;
+  max-height: 80px;
+}
+
+.form input,
+.form select {
+  width: 100%;
+}
+
+.form textarea {
+  width: 100%;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

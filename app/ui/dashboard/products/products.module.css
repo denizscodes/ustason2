@@ -1,0 +1,182 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addButton {
+  padding: 10px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text);
+  border: none;
+  cursor: pointer;
+}
+
+.view {
+  background-color: #0071e3;
+  color: white;
+}
+
+.delete {
+  background-color: crimson;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.addButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tableWrapper {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tableHeader {
+  display: flex;
+  background-color: #666;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.tableHeaderCell {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+}
+
+.tableBody {
+  background-color: #f9f9f9;
+}
+
+.tableRow {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableRow:last-child {
+  border-bottom: none;
+}
+
+.tableCell {
+  flex: 1;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.tableCell strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.tableCell p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s;
+  height: 25vh;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.cardtitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+.card svg {
+  width: 40px;
+  margin-top: 40px;
+}
+.containercard{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .containercard {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+  }
+  .card svg {
+    width: 40px;
+    margin-top: 0;
+  }
+}
+

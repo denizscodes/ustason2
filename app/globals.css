@@ -1,0 +1,47 @@
+:root {
+  --bg: #fff;
+  --bgSoft: #f6f5f8;
+  --text: #1d1d1f;
+  --textSoft: #b7bac1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+/* Mobil cihazlar için */
+@media only screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+/* Web için (daha büyük ekranlar) */
+@media only screen and (min-width: 601px) {
+  .hide-web {
+    display: none;
+  }
+}
+
+.kasa {
+  padding: 15px;
+  background: #0071e4;
+  color: white;
+  border-radius: 10px;
+}

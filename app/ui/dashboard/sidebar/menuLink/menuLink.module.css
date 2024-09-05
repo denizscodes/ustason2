@@ -1,0 +1,40 @@
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  border-radius: 10px;
+  margin: 1px;
+
+}
+
+.container:hover,
+.active {
+  background-color: #0071e3;
+  color: white;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .container  {
+  font-size: 10px;
+  padding: 5px;
+
+  }
+  .container svg {
+    width: 20px; /* genişliği artır */
+    height: 20px; 
+    display: flex;
+    justify-content: center;/* yüksekliği artır */
+  }
+
+  .mini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
